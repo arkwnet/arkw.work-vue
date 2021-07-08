@@ -1,34 +1,16 @@
 <template>
 	<div>
-		<Header></Header>
-		<Navi></Navi>
-		<Footer></Footer>
+		<Main></Main>
 	</div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Navi from './components/Navi.vue'
-import Footer from './components/Footer.vue'
+import Main from './Main.vue'
 
 export default({
 	name: 'app',
 	components: {
-		Header,
-		Navi,
-		Footer
+		Main
 	}
 })
 </script>
-
-<style scoped>
-@import "./components/common.css";
-
-a {
-	color: #3f51b5;
-}
-
-a:hover {
-	opacity: 0.7;
-}
-</style>
