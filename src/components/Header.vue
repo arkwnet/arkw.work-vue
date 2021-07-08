@@ -8,7 +8,9 @@
 	</div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+@import "./common.scss";
+
 .header {
 	padding-top: 20px;
 	padding-bottom: 8px;
@@ -16,9 +18,9 @@
 	padding-right: 40px;
 	position: relative;
 	z-index: 100;
-	background-color: #3f51b5;
-}
-.header img {
-	height: 60px;
+	background-color: $arkw-color;
+	img {
+		height: 60px;
+	}
 }
 </style>

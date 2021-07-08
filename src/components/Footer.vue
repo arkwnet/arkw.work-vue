@@ -9,11 +9,13 @@
 	</div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+@import "./common.scss";
+
 .footer {
 	margin-top: 60px;
 	padding: 30px 0;
-	background-color: #3f51b5;
+	background-color: $arkw-color;
 	color: #fff;
 	line-height: 26px;
 }
@@ -21,9 +23,8 @@
 .footer-credits {
 	margin-top: 10px;
 	font-size: 12px;
-}
-
-.footer-credits a {
-	color: #fff;
+	a {
+		color: #fff;
+	}
 }
 </style>
